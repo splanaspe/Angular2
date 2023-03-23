@@ -1,0 +1,55 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<div class="content" role="main">
+  <header>
+        <h1>Nombre de Película</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Buscar...">
+      <button class="btn btn-outline-secondary" type="button">
+        <i class="fas fa-search"></i>
+      </button>
+        </div>
+    </header>
+
+    <div class="columnas">
+      <div class="left-side">
+        <app-actors (actorClicado)="recibirActorClicado($event)"> </app-actors>
+      </div>
+    
+      <div class="numerito" > 
+      
+    
+      </div>
+      <div class="columna-segunda"> 
+        <app-player [actorClicado]="actorClicado"> </app-player>
+        <app-detail [actorClicado]="actorClicado">  </app-detail>
+      </div>
+
+
+    </div>
+
+
+
+    
+
+    <!--
+    <div class="right-side">
+    <app-player></app-player>
+    <app-detail></app-detail>
+    </div>
+    -->
+  
+
+    
+  
+  
+
+<!-- Div class video-card y class actor-info-card van en un mismo DIV contenedor "right-side" -->
