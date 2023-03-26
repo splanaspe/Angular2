@@ -17,12 +17,10 @@ header h1 {
 /* Estilo principal */
 .content {
     background-image: url('../assets/background.jpg');
-    background: size 100%; 
+    background-size:  cover; 
     background-repeat: no-repeat;
-    height: auto;
-    width: auto;
-    min-height: 50vw;
-    
+    height: 100vh;
+
 }
 
 .left-side {

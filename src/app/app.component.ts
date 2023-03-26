@@ -13,6 +13,4 @@ export class AppComponent {
   recibirActorClicado(evento: number){
     this.actorClicado=evento;
   }
-
-
 }
